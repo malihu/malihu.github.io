@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800);
 
-html, body {
+html, body, .wufoo {
     color: #333;
     font-size: 14px;
     line-height: 20px;
@@ -14,7 +14,7 @@ html, body {
 html{background-image:none;background-color:transparent;}
 #logo{background-image:none;background-color:transparent;}
 #container{background:transparent}
-.wufoo input.text, .wufoo textarea.textarea{
+.wufoo input, .wufoo input.text, .wufoo textarea.textarea{
 	border: 0;
 	box-shadow: none;
 	border-radius: 5px;
