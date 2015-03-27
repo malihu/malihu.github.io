@@ -5,7 +5,6 @@ html, body, .wufoo {
     font-size: 14px;
     line-height: 20px;
     font-family: 'Open Sans', sans-serif;
-    text-align: center;
 }
 
 /* Logo */
@@ -62,17 +61,18 @@ html{background-image:none;background-color:transparent;}
 	font-weight: 400;
 	font-size: 20px;
 	margin-top: 0;
+	margin-bottom: 20px;
 }
 .wufoo .info div,.wufoo .section h3,.wufoo .section div,.wufoo label.desc, .wufoo legend.desc,.wufoo input.text, .wufoo textarea.textarea, .wufoo select.select, .wufoo label.choice{
-	font-size:inherit;font-family:inherit;color:inherit
+	font-size:inherit;font-family:inherit;color:inherit; line-height: inherit;
 }
 .wufoo li div, .wufoo li div label, .wufoo li span label{font-family:inherit;color:inherit}
 .wufoo label.choice{color:inherit}
 .wufoo .instruct{font-size:80%;font-family:inherit;color:inherit
 }
 
-@media only screen and (min-width: 1160px) {
-	html, body, .wufoo{
-		text-align: left;
-	}
+/* errors */
+#errorLi{
+	border: 0;
+	border-radius: 0;
 }
