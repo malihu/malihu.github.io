@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800);
 
 html, body {
     color: #333;
@@ -15,6 +15,8 @@ html{background-image:none;background-color:transparent;}
 #logo{background-image:none;background-color:transparent;}
 #container{background:transparent}
 .wufoo input.text, .wufoo textarea.textarea{
+	border: 0;
+	box-shadow: none;
 	border-radius: 5px;
 	background: #ddd;
 	padding: 10px 20px;
@@ -25,6 +27,25 @@ html{background-image:none;background-color:transparent;}
 }
 .wufoo .focused{background:#fff}
 .wufoo .instruct{background-color:#fff}
+
+.wufoo input.submit{
+	border: 0;
+	box-shadow: none;
+	background-color: transparent;
+	font-weight: 800;
+	font-size: 12px;
+	width: auto;
+	border: 1px solid #ccc;
+	color: #999;
+	text-transform: uppercase;
+	transition: all .2s ease-in-out;
+}
+
+.wufoo input.submit:hover{
+	color: #fff;
+	background-color: #3397d6;
+	border-color: #fafafa;
+}
 
 /* Borders */
 #container{border:0}
