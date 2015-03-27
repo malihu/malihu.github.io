@@ -76,3 +76,8 @@ html{background-image:none;background-color:transparent;}
 	border: 0;
 	border-radius: 0;
 }
+
+/* others */
+a.power, a.power strong{
+	display: none !important;
+}
