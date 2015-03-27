@@ -1,0 +1,39 @@
+/* Logo */
+#logo a {display: none;}
+* html #logo a {/* IE6 png Support */
+	background-image: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://wufoo.com/images/themes/logos/shark.png", sizingMethod="crop");
+}
+
+/* Backgrounds */
+html{background-image:none;background-color:transparent;}
+#logo{background-image:none;background-color:transparent;}
+#container{background:transparent}
+.wufoo input.text, .wufoo textarea.textarea{
+	border-radius: 5px;
+	background: #ddd;
+	padding: 10px 20px;
+	width: 300px;
+	max-width: 100%;
+	-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;
+	margin: 0 2% 10px 0;
+}
+.wufoo .focused{background:#fff}
+.wufoo .instruct{background-color:#fff}
+
+/* Borders */
+#container{border:0}
+.wufoo .info{border-bottom:0}
+.wufoo .instruct{border:0}
+
+/* Typography */
+.wufoo .info h2{font-size:160%;font-family:inherit;color:inherit}
+.wufoo .info div{font-size:95%;font-family:inherit;color:inherit}
+.wufoo .section h3{font-size:110%;font-family:inherit;background:transparent;color:inherit}
+.wufoo .section div{font-size:85%;font-family:inherit;color:inherit}
+.wufoo label.desc, .wufoo legend.desc{font-size:95%;font-family:inherit;color:inherit}
+.wufoo li div, .wufoo li div label, .wufoo li span label{font-family:inherit;color:inherit}
+.wufoo input.text, .wufoo textarea.textarea, .wufoo select.select, .wufoo label.choice{font-size:100%;font-family:inherit;color:inherit}
+.wufoo label.choice{color:inherit}
+.wufoo .instruct{font-size:80%;font-family:inherit;color:inherit
+}
