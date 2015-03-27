@@ -1,9 +1,14 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800);
+
+html, body {
+    color: #333;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
 /* Logo */
 #logo a {display: none;}
-* html #logo a {/* IE6 png Support */
-	background-image: none;
-	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://wufoo.com/images/themes/logos/shark.png", sizingMethod="crop");
-}
 
 /* Backgrounds */
 html{background-image:none;background-color:transparent;}
@@ -27,7 +32,11 @@ html{background-image:none;background-color:transparent;}
 .wufoo .instruct{border:0}
 
 /* Typography */
-.wufoo .info h2{font-size:160%;font-family:inherit;color:inherit}
+.wufoo .info h2{
+	font-weight: 400;
+	font-size: 20px;
+	margin-top: 0;
+}
 .wufoo .info div{font-size:95%;font-family:inherit;color:inherit}
 .wufoo .section h3{font-size:110%;font-family:inherit;background:transparent;color:inherit}
 .wufoo .section div{font-size:85%;font-family:inherit;color:inherit}
